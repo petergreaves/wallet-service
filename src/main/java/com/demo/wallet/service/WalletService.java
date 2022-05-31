@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface WalletService {
 
-    List<Integer> getNotesForAmount(List<Integer> wallet, List<Integer> notesRequired, int amount );
+    List<Integer> getNotesForAmount(int amount);
 }
